@@ -9,15 +9,26 @@
 * Podemos usar o comando `switch`, `case`, `default` para tomar decisões no código.
 <br>
 ## 02. Entendendo o _Model View Controller(MVC)_
-* Conhecemos o padrão arquitetural MVC
+* Conhecemos o padrão arquitetural MVC;
 * MVC define 3 camadas:
-* Modelo: Classes com a lógica de negócio e persistência
-* View: Arquivos com o código HTML
-* Controller: Classes que ligam o Model e View
-* Vimos também que existe um FrontController (também chamado de Dispatcher)
+  * Modelo: Classes com a lógica de negócio e persistência;
+  * View: Arquivos com o código HTML;
+  * Controller: Classes que ligam o Model e View;
+* Vimos também que existe um FrontController (também chamado de Dispatcher);
 * Ele representa a entrada da aplicação e recebe todas as requisições
-* Ele decide qual controller específico a usar
+* Ele decide qual controller específico a usar;
 * ![img.png](img.png)
 * O padrão MVC não nasceu especificamente para a web;
 * O padrão sofreu algumas adaptações para funcionar e atender as aplicações web;
 * Por isso também é chamado de MVC Web, MVC Tipo 2 ou MVC Action Based.
+<br>
+## 03. HTTP, Formulários e Validação
+* Para ler os dados enviados da requisição existem variáveis "super globais" como `$_REQUEST`, `$_POST` e `$_GET`;
+* Para validar e limpar os dados da requisição podemos usar a função `filter_input`;
+* Existem diversos **filters** já prontos;
+* Também existe a função `filter_var' para aplicar filtros em qualquer variável;
+* Mais filtros no link: [https://www.php.net/manual/pt_BR/book.filter.php]();
+* Vimos como trabalhar com cabeçalhos no mundo PHP;
+* Podemos usar a função genérica 'header' mas também específicos como `http_response_code`;
+* Vimos como funciona o redirecionamento, isto é, chamar automaticamente uma nova URL pelo navegador;
+* Para tal o servidor precisa devolver o cabeçalho Location para o navegador usando a função `header`.
