@@ -7,7 +7,7 @@
 * PHP possui uma variável "super global" chamada `$_SERVER` que tem vários informações úteis sobre a requisição;
 * Através dela podemos obter a URL: `$_SERVER['PATH_INFO']`;
 * Podemos usar o comando `switch`, `case`, `default` para tomar decisões no código.
-<br>
+
 ## 02. Entendendo o _Model View Controller(MVC)_
 * Conhecemos o padrão arquitetural MVC;
 * MVC define 3 camadas:
@@ -21,7 +21,7 @@
 * O padrão MVC não nasceu especificamente para a web;
 * O padrão sofreu algumas adaptações para funcionar e atender as aplicações web;
 * Por isso também é chamado de MVC Web, MVC Tipo 2 ou MVC Action Based.
-<br>
+
 ## 03. HTTP, Formulários e Validação
 * Para ler os dados enviados da requisição existem variáveis "super globais" como `$_REQUEST`, `$_POST` e `$_GET`;
 * Para validar e limpar os dados da requisição podemos usar a função `filter_input`;
