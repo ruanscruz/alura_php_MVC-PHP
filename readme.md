@@ -39,5 +39,11 @@
 * Podemos ativar a buffer de saída do buffer com o `ob_start()`;
 * O método `ob_get_contents()` devolve conteúdo do buffer;
 * O método `ob_clean()` limpa o buffer;
-* O método `ob_get_clean` devolve conteúdo e limpa o buffer.
-* Gerar proxy doctrine `php vendor/bin/doctrine orm:generate-proxies`
+* O método `ob_get_clean` devolve conteúdo e limpa o buffer;
+* Gerar proxy doctrine `php vendor/bin/doctrine orm:generate-proxies`.
+
+## 05.Autenticando usuários
+* Como gerar uma senha segura usando o algoritmo **ARGON2I**;
+* Usar no código PHP a função `password_verify($senhaPura, $senhaHash)`;
+* Como inserir dados com Doctrine através de SQL;
+* Como validar um email usando a função `filter_input` (`FILTER_VALIDATE_EMAIL`).
