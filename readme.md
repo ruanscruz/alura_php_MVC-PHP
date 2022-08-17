@@ -32,3 +32,12 @@
 * Podemos usar a função genérica 'header' mas também específicos como `http_response_code`;
 * Vimos como funciona o redirecionamento, isto é, chamar automaticamente uma nova URL pelo navegador;
 * Para tal o servidor precisa devolver o cabeçalho Location para o navegador usando a função `header`.
+
+## 04.Completando o cadastro
+* A função `isset(..)` para testar se uma variável existe;
+* A função `extract(..)` que recebe um array associativo e define variáveis para cada chave;
+* Podemos ativar a buffer de saída do buffer com o `ob_start()`;
+* O método `ob_get_contents()` devolve conteúdo do buffer;
+* O método `ob_clean()` limpa o buffer;
+* O método `ob_get_clean` devolve conteúdo e limpa o buffer.
+* Gerar proxy doctrine `php vendor/bin/doctrine orm:generate-proxies`
