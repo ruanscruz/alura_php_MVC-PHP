@@ -3,9 +3,11 @@
 
 namespace Alura\Cursos\Controller;
 
-class FormularioLogin extends ControllerComHtml implements InterfaceControladorRequisicao
-{
+use Alura\Cursos\Helper\RenderizaHtmlTrait;
 
+class FormularioLogin implements InterfaceControladorRequisicao
+{
+    use RenderizaHtmlTrait;
 	public function processaRequisicao(): void
 	{
 		echo $this->renderizaHtml('login/formulario.php', [

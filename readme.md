@@ -47,3 +47,13 @@
 * Usar no código PHP a função `password_verify($senhaPura, $senhaHash)`;
 * Como inserir dados com Doctrine através de SQL;
 * Como validar um email usando a função `filter_input` (`FILTER_VALIDATE_EMAIL`).
+
+## 06.Trabalhando com Sessão
+* Por padrão o servidor não guarda informações ou dados entre requisições;
+* Isto é principalmente por causa do protocolo HTTP que é _stateless_ (sem manter estado);
+* Para armazenar dados entre requisições precisamos usar uma `SESSION` (sessão);
+* Uma session tem um ID (`PHPSESSID`) associado que fica salvo dentro de um arquivo de texto chamado Cookie;
+* O Cookie por sua vez fica salvo no navegador;
+* O navegador automaticamente envia o cookie em cada requisição;
+* Uma sessão precisa ser inicializada explicitamente no PHP pelo comando `session_start()`;
+* `session_start()` precisa ser chamada antes de qualquer saída.
