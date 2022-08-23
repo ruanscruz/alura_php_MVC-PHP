@@ -57,3 +57,14 @@
 * O navegador automaticamente envia o cookie em cada requisição;
 * Uma sessão precisa ser inicializada explicitamente no PHP pelo comando `session_start()`;
 * `session_start()` precisa ser chamada antes de qualquer saída.
+
+## 07.PSRs e Boas Práticas
+* Existem vários padrões definidos através de PSRs (_PHP Standard Recommendations_);
+* A organização **PHP-FIG** (_Framework Interoperability Group_) sugere e mantém a especificação destes padrões;
+  * Site do PHP-FIG é https://www.php-fig.org/
+* Seguindo as PSRs aumentamos a compatibilidade do nosso código entre frameworks e bibliotecas;
+  * Vimos as seguinte PSRs:
+  * PSR-4: _Autoloading_
+  * PSR-7: _HTTP message interfaces_
+  * PSR-11: _Container interface_
+  * PSR-15: _HTTP Server Request Handlers_
