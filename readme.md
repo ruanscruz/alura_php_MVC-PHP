@@ -68,3 +68,9 @@
   * PSR-7: _HTTP message interfaces_
   * PSR-11: _Container interface_
   * PSR-15: _HTTP Server Request Handlers_
+
+## 08.Introdução a WebServices
+* Um WebService permite que plataformas e linguagens diferentes se integrem (funcionem em conjunto) e troquem informações;
+* WebServices podem utilizar o protocolo HTTP para acessar uma funcionalidade de uma outra aplicação;
+* O retorno de um WebService normalmente é definido nos formatos XML ou JSON (no lugar de HTML);
+* O cliente de um WebService lê os dados e apresenta da forma que quiser.
